@@ -16,6 +16,26 @@ if (isset($_POST['tambah'])) {
 
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  body {
+    background-color: gray;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  form {
+    background-color: grey;
+    color: black;
+    text-align: justify;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 300px;
+    margin: 50px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+</style>
 
 <head>
   <meta charset="UTF-8">
@@ -58,9 +78,9 @@ if (isset($_POST['tambah'])) {
           <input type="text" name="gambar" required>
         </label>
       </li>
-      <li>
-        <button type="submit" name="tambah">Tambah data</button>
-      </li>
+      <br>
+      <button type="submit" name="tambah">Tambah data</button>
+
     </ul>
   </form>
 </body>

@@ -4,6 +4,31 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  body {
+    background-color: gray;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center
+  }
+</style>
 
 <head>
   <meta charset="UTF-8">
@@ -14,8 +39,10 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 
 <body>
   <h3>Daftar Mahasiswa</h3>
-
-  <a href="tambah.php">Tambah Data Mahasiswa</a>
+  <div>
+    <a href="tambah.php">Tambah Data Mahasiswa</a><br>
+    <a href="Hapus.php">Hapus Data Mahasiswa</a>
+  </div>
   <br><br>
 
 
