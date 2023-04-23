@@ -8,6 +8,19 @@ $m = query("SELECT * FROM mahasiswa WHERE id = $id");
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  body {
+    background-color: gray;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+</style>
 
 <head>
   <meta charset="UTF-8">

@@ -40,8 +40,7 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 <body>
   <h3>Daftar Mahasiswa</h3>
   <div>
-    <a href="tambah.php">Tambah Data Mahasiswa</a><br>
-    <a href="Hapus.php">Hapus Data Mahasiswa</a>
+    <a href="tambah.php">Tambah Data Mahasiswa</a>
   </div>
   <br><br>
 
